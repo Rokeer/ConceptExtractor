@@ -1,0 +1,4 @@
+concept,weight
+book mir text,0.2823
+text,0.2506
+code,0.1253

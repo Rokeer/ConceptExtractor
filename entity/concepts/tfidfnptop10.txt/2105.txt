@@ -1,0 +1,4 @@
+concept,weight
+text,0.4141
+code,0.207
+book,0.207

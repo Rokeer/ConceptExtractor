@@ -1,0 +1,6 @@
+concept,weight
+flower,0.2617
+basket,0.2617
+text,0.2324
+code,0.1162
+book,0.1162

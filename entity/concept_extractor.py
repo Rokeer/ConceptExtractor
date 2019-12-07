@@ -4,17 +4,17 @@ import os
 from entity.util.config import config
 from entity.util import document as dc
 from entity.util import common as cm
-from entity.models import tfidf,keyword
-from entity.util.extractors import extract_top_kcs_sm,extract_top_kcs
+from entity.models import tfidf, keyword
+from entity.util.extractors import extract_top_kcs
 
 
 if __name__=='__main__':
 
 
-    BOOK_CORPUS = 'data/sampleSyllabus.csv'
+    BOOK_CORPUS = 'data/sample_file.csv'
     listbooks = []
 
-    concept = config.LIST_FILTER
+    concept = config.TFIDFNP
     keyword_list_path = config.irbook_glossary_list
 
 
